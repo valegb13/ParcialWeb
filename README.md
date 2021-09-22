@@ -1,4 +1,5 @@
 #ParcialWeb
+Valentina Galvis Bergsneider 2182038
 
 1. HTML se define como: (b) Un lenguaje de marcado que defina la estructura de tu contenido.
 2. CSS se define como: (a) Es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML.
