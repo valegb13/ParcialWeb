@@ -1,0 +1,105 @@
+*{
+    box-sizing: boder-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background: #d8d5d5;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.Centrar{
+    box-shadow: grey;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+
+.Contenedor{
+    display: flex;
+    padding: 1px 400px 0px 400px;
+    margin: 0px;
+    flex-flow: column;
+    
+    
+}
+.Formulario .ArribaFormulario{
+    padding: 5px;
+    background: #ffff;
+    margin: none;
+    font-size: 10px;
+    background-size: cover;
+    
+}
+.Centrar2{
+    padding: 10px;
+
+    font-size: 15px;
+    text-align: center;
+    color: rgb(65, 65, 68);
+}
+.Formulario input[type="text"],
+.Formulario input[type="email"],
+.Formulario input[type="tel"] {
+    display: block;
+    margin: center;    
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-color: #c2c6ca;
+    border-radius: 5px;
+    
+}
+
+input[type="button"] {
+    border-radius: 5px;
+    line-height: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+    color: green;
+    border-color: green;
+}
+
+.iconoInput {
+    color: #606163;
+    font-size: 15px;
+    position: absolute;
+    left: 930px;
+    padding-top: 10px;
+}
+
+.inputPadding {
+    padding-left: 40px;
+}
+
+.Tabla{
+    padding: 10px;
+    border-color: #c2c6ca;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 40px;
+    display: flex;
+}
+table,td,th{
+    padding: 10px;
+    font-size: 15px;
+    border:1px solid #c2c6ca; 
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 500px;
+    
+}
+.ContenedorBandera{
+    background-color: rgb(23, 206, 78);
+    width: 80px;
+    text-align: center;
+    color: white;
+}

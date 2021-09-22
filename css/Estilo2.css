@@ -1,0 +1,77 @@
+*{
+    box-sizing: boder-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    padding:0px;
+    margin: 100px 200px 300px 500px;
+    border-color:#c2c6ca;
+    font-family: 'Roboto', sans-serif;
+}
+.Tabla{
+    padding:0px;
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c6ca;
+    border-radius: 5px;
+}
+.Ficha{
+    width: 100%;
+    border-style: solid;
+    border-color: #0a6575;
+    background:#0a6575;
+    color: white;
+}
+
+
+.Email{
+    color: rgb(92, 168, 240);
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c6ca;
+    background: #e9ecee;
+}
+
+.FichaEmail{
+    background: #164fca;
+    color: white;
+}
+
+.Telefono{
+    color: rgb(92, 168, 240);
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c6ca;
+    background: #e9ecee;
+}
+
+.FichaTelefono{
+    color: white;
+    background: #0a6575;
+}
+
+.Gusto{
+    color: rgb(92, 168, 240);
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c6ca;
+    background: #e9ecee;
+}
+.FichaGusto{
+    color: white;
+    background: #4fc91f;
+}
+.Porcentaje{
+    color: rgb(92, 168, 240);
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c6ca;
+    background: #e9ecee;
+}
+.FichaPorcentaje{
+    color: white;
+    background: #ec2727;
+}

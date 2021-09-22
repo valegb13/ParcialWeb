@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Parcial </title>
+        <link rel="stylesheet" href="css/Estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <script src="java.js"></script>
+    </head>
+    <body> 
+        <div class="Centrar" style="font-family: 'Montserrat', sans-serif;"><p><b>Web</b>Developer</h3></p>
+        <div class="Contenedor">
+            <main>
+                
+                <form action="" class="Formulario" id="Formulario" method="GET">
+                    <div class="ArribaFormulario">
+                        <h2 class="Centrar2" style="color: grey;">Formulario de afilicación</h2>
+                            <!--Usuario-->
+                            <i class="fas fa-user" style="color: #606163; font-size: 15px; position: absolute; left: 900px; padding-top: 10px;"></i>
+                            <input type="text" class="input_formulario" name="Nombre" id="Nombre" placeholder="Valentina">
+                            <!--Correo-->
+                            <i class="fas fa-envelope" style="color: #606163; font-size: 15px; position: absolute; left: 900px; padding-top: 10px;"></i>
+                            <input type="email" class="form-control inputPadding" id="Correo" placeholder="vvisgal2@gmail.com">
+                            <!--Teléfono-->
+                            <i class="fas fa-phone" style="color: #606163; font-size: 15px; position: absolute; left: 900px; padding-top: 10px;"></i>
+                            <input type="tel" class="input_formulario" name="Telefono" id="Telefono" placeholder="5487561243">
+        
+                        
+                        <div class="Size2" style="width: 100%; display: flex;">
+                            <input type="text" class="input_formulario" name="Gustos" id="Gustos">
+                            <input type="button" class="boton_gustos" name="boton_gustos" id="boton_gustos" value="Gustos"  onclick="AñadirGustos()">
+                        </div>
+                        
+                        <div class="Tabla" id="TablaCool">
+                            <div class="ContenedorBandera">
+                                <i class="far fa-flag"></i>
+                            </div>
+                            
+                            <table id="tablatabla">
+                                <thead>
+                                    <tr>
+                                        <td> <b>Gusto</b></td>
+                                        <td><b>%</b></td>
+                                        <td><b>edit</b></td>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                        </div>
+                        <div id="ContenedorBotones">
+
+                        </div>
+                        <div class="col-9 border border-start-0 rounded-end" style="display: flex;">
+                            <table id="likesTable" class="table table-bordered bdr my-auto">
+                               
+                            </table>
+                        </div>
+                        <div id="bottom" class="row"></div>
+                        <div class="texto" style="color: rgb(0, 0, 54); font-size: 12px; text-align: left; padding: 10px;">
+                            <a type="submit" onclick="Visualizar()" style="border-style: none; background: none; color: blue;">Ir a Site de P Web </a>
+
+                        </div>
+                    </div>
+                </form>
+            </main> 
+        </div>
+    </body>
+</html>
